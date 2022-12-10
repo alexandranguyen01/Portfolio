@@ -1,0 +1,122 @@
+html{
+    background-image:url("backimage.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font: size 25px;
+}
+.container{
+    width: 90%;
+    margin: 50px auto;
+}
+.contact-box{
+    background-color:rgb(255, 251, 236);
+    display:flex;
+}
+.contact-left{
+    flex-basis:60%;
+    padding: 40px 60px;
+}
+.radio-container{
+    font-size: 15px;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.contact-right{
+    flex-basis:40%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 251, 236);
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #000000;
+}
+h1{
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #046307;
+    font-size: xx-large;
+}
+.contact-left h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+.contact-right h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.container p{
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width:1200px
+}
+.input-row .input-group{
+    flex-basis:40%;
+    padding:18px;
+    margin-right: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.label{
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+.btn{
+    background-color: #046307;
+    background-image: linear-gradient(#ade6c8,#cae6b3);
+    /*The extra feature that I choose to improve the appearance of my website was to add a liner gradient to my button for the contact page!*/
+    width: 400px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height:35px;
+    border-radius: 30px;
+    margin-bottom: 6px;
+    box-shadow: 0px 5px 15px 0px gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+tr td:first-child{
+    padding-right: 40px;
+}
+tr td{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', monospace;
+    font-size: medium;
+}

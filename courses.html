@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>Courses List</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="StyleSheet" type="text/css" href="courses.css">
+    <script async src="courses.js"></script>
+</head>
+
+ <style>
+    body{
+        background-image:url("/backimage.jpg");
+    }
+ </style>
+
+<body>
+    <div id="layout">
+
+
+        <nav>
+            <a href="index.html">Homepage</a>
+        </nav> <!-- end of nav -->
+
+        <header>
+            <th colspan="6"></th><h1>Courses Taken</h1>
+        </header>
+        <main>
+        <table>
+            <thead>
+                <tr>
+                <th><h3>Course ID</h3></th>
+                <th><h3>Course Name</h3></th>
+                <th><h3>Semester Taken</h3></th>
+                <th><h3>Concepts Learned</h3></th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr id="Class1">
+                <td>
+                    <input id="1" type="image" src="Health.jpg"
+                    alt="HealthLogo"
+                    width="200"
+                    height="110"
+                    >
+                    <center>PBHL 2052</center>
+                </td>
+                <td>Global Demography and Health</td>
+                <td>Fall 2022</td>
+                <td>Fertality, Morality, Migration, Global Health, Differences in Geography and Population</td>
+            </tr>
+            <tr id="Class2">
+                <td>
+                    <input id="2" type="image" src="Accounting.jpg"
+                    alt="AccountingLogo"
+                    width="180"
+                    height="150"
+                    >
+                    <center>ACCT 2220</center>
+                </td>
+                <td>Managerial Accounting</td>
+                <td>Fall 2022</td>
+                <td>Cost Accounting, Break Even, Cost Allocation, Activity Based Costing, Cost Drivers</td>
+            </tr>
+            <tr id="Class3">
+                <td>
+                    <input id="3" type="image" src="Operations.jpg"
+                    alt="OperationsLogo"
+                    width="155"
+                    height="80"
+                    >
+                <center>BANA 3000</center>
+                </td>
+                <td>Operations Management</td>
+                <td>Fall 2022</td>
+                <td>Z Table, Variance, MRP, Confidence Interval, ROP, Supply, Demand</td>
+            </tr>
+            <tr id="Class4">
+                <td>
+                    <input id="4" type="image" src="Technology.jpg"
+                    alt="TechnologyLogo"
+                    width="170"
+                    height="140"
+                    >
+                <center>ISMG 3000</center>
+                </td>
+                <td>Technology in Business</td>
+                <td>Fall 2022</td>
+                <td>Web 3.0, Internet of Things, Disruptive Technology, Artificial Intelligence</td>
+            </tr>
+            <tr id="Class5">
+                <td>
+                    <input id="5" type="image" src="WebDesign.jpg"
+                    alt="WebDesignLogo"
+                    width="150"
+                    height="100"
+                    >
+                <center>ISMG 2800</center>
+                </td>
+                <td>Designing for the Web</td>
+                <td>Fall 2022</td>
+                <td>HTML, CSS, Javascript</td>
+            </tr>
+            <tr id="Class6">
+                <td>
+                    <input id="6" type="image" src="Management.jpg"
+                    alt="ManagementLogo"
+                    width="160"
+                    height="100"
+                    >
+                <center>MGMT 3000</center>
+                <td>Management: Leading Individuals and Teams</td>
+                <td>Fall 2022</td>
+                <td>Teams vs. Groups, Myers Briggs Type, Behaviorial Theory</td>
+            </tr>
+        </tbody>
+        </tbody>
+        </table>
+        </main>
+        <aside>
+            <h2>
+                Favorite Classes
+            </h2>
+            <div class="FavoriteClasses">
+                <table id="FavoriteClassesTable">
+                </table>
+                <p class="counter">
+                    Number of Favorite Classes: <span id="FavoriteClassCounter">0</span>
+                </p>
+            </div>
+        </aside>
+        <footer>
+            &copy;2022 Alexandra Nguyen
+        </footer>
+    </div>
+</body>
+</html>
